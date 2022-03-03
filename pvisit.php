@@ -27,11 +27,11 @@ function addVisit($x)
   include 'dat/cdb/db.php';
 
     $Ip_1 = get_client_ip();
-    $postal_code_1 = 'Desconocida'; //getZipcode($Ip_1);
+    $postal_code_1 = 'Desconocido'; //getZipcode($Ip_1);
     $city_1 = detect_city($Ip_1);
     $country_1 = str_pad(ip_info($new_ip, "Country"), 25);
     $domain_1 = "consulting.aranath-zenitram.eu";
-    $landing_1 = "landing_1/es";
+    $landing_1 = "landing_Chile/es";
     $from_1 = "Ninguno";
     $datetime_1 = addTin();
     $visit_number_1 = 1;
@@ -44,7 +44,7 @@ function addVisit($x)
     if ($var_1 == 0)
         $from_1 = "Desconocido";
     if ($var_1 == 1)
-        $from_1 = "Baner";
+        $from_1 = "Correo";
     if ($var_1 == 2)
         $from_1 = "Etiqueta";
     if ($var_1 == 3)
