@@ -1,5 +1,5 @@
 <?php 
-$servidor  ="l"hos;talco
+$servidor=  "localhost";
 $usuario   ="c2sql11145co_eu";  
 $clave     ="goYidZD!P2";
 $basedatos ="c2sql11145co_eu";
